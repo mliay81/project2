@@ -1,9 +1,0 @@
-<?php
-$db_host='localhost';
-$db_name='phpcocktails';
-$db_user='seb';
-$db_password='admin';
-$db_prefix='phpcocktails_';
-$install_dir='/phpcocktails';
-$language='french';
-?>
