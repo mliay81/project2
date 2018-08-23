@@ -1,3 +1,25 @@
 .list-group-item {
   line-height: 2.5;
 }
+
+#bg {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+
+}
+
+#search{
+  background-image: url('../img/cocktails-2.jpg'), url(../img/cocktails-1.png);
+  background-size: auto, 190px;
+background-color: beige;
+  background-repeat: no-repeat;
+
+  background-position: right 20px top 300px, left 20px top 275px;
+
+
+}
+
+h1{
+  font-style: italic;
+  font-size: 40px;
+}
