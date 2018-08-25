@@ -27,13 +27,13 @@ module.exports = function(app) {
     });
   });
 
-  app.get("/api/recipe/:recipe", function(req, res) {
-    Drink.findAll({
-      where: {
-        recipe: req.params.recipe
-      }
-    }).then(function(results) {
-      res.json(results);
-    });
-  });
+  // app.get("/api/recipe/:recipe", function(req, res) {
+  //   Drink.findAll({
+  //     where: {
+  //       recipe: req.params.recipe
+  //     }
+  //   }).then(function(results) {
+  //     res.json(results);
+  //   });
+  // });
 };
