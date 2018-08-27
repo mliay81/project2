@@ -31,18 +31,18 @@ h5 {
 }
 
 .btn {
-    margin-top: 95%;
+    /*margin-top: 95%;*/
     background-color: #C09F80;
     color: #76323F;
     outline: #C09F80;
-    width: 90px;
+    width: 50%;
     text-align: center;
 }
 
-#buttons {
-    padding-top: 15%;
-    padding-left: 12%;
-}
+/*#buttons {*/
+    /*padding-top: 15%;*/
+    /*padding-left: 12%;*/
+/*}*/
 
 .card {
     border-radius: 10px;
@@ -69,5 +69,20 @@ img {
     margin-right: auto;
     margin-bottom: 5%;
 }
+/*#search{*/
+    /*background-image: url('../img/ct.png'), url(../img/ct.png);*/
+    /*background-size: 200px, 200px;*/
+
+    /*background-repeat: no-repeat;*/
+
+    /*background-position: right 200px top 300px, left -20px top 300px;*/
+
+
+/*}*/
+
+/*img {*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+/*}*/
 
 
