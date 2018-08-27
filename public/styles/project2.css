@@ -10,7 +10,7 @@ body {
 
 .jumbotron {
     background-color: #C09F80;
-    margin-bottom: 20%;
+    
 }
 
 h3 { 
@@ -24,10 +24,7 @@ h5 {
 
 }
 
-#search {
-    margin-right: 25%;
-    margin-left: 10%;
-}
+
 
 .btn {
     /*margin-top: 95%;*/
@@ -43,13 +40,11 @@ h5 {
     /*padding-left: 12%;*/
 /*}*/
 
-.card {
-    border-radius: 10px;
-}
 
-.card-body {
+
+/*.card-body {
     height: 60px;
-}
+}*/
 
 /*#search{*/
     /*background-image: url('../img/ct.png'), url(../img/ct.png);*/
