@@ -1,5 +1,6 @@
 p {
     color: #565656;
+    /* display: inline; */
 }
 
 body {
@@ -51,6 +52,22 @@ h5 {
     height: 60px;
 }
 
+/* New styling for search results */
+ul {
+    list-style: none;
+}
 
+li {
+    color: #565656;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
 
 
