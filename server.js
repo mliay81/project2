@@ -18,6 +18,8 @@ connection.connect(function(err){
   console.log('Connected as id: '+connection.threadId);
 });
 
+
+
 // Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
