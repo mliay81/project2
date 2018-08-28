@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/mliay81/project2#readme",
   "dependencies": {
+    "body-parser": "*",
     "dotenv": "^6.0.0",
+    "express": "4.16.3",
     "express-handlebars": "^3.0.0",
     "mysql2": "^1.6.1",
-    "sequelize": "^4.38.0",
-    "express": "*",
-    "body-parser": "*"
+    "sequelize": "^4.38.0"
   },
   "description": "Group 5 Project",
   "devDependencies": {
