@@ -1,7 +1,6 @@
 {
   "name": "project2",
   "version": "1.0.0",
-  "description": "group 5 project",
   "main": "server.js",
   "directories": {
     "test": "test"
@@ -14,17 +13,17 @@
     "type": "git",
     "url": "git+https://github.com/mliay81/project2.git"
   },
-  "author": "group 5",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mliay81/project2/issues"
   },
   "homepage": "https://github.com/mliay81/project2#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "http": "0.0.0",
-    "mysql": "^2.16.0",
-    "require": "^2.4.20"
-  }
+    "dotenv": "^6.0.0",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  },
+  "description": "Group 5 Project"
 }

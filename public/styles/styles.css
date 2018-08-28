@@ -1,3 +1,7 @@
+@import "compass/css3";
+
+$height-footer: 60px;
+
 .list-group-item {
   line-height: 2.5;
 }
@@ -8,18 +12,75 @@
 
 }
 
-#search{
-  background-image: url('../img/cocktails-2.jpg'), url(../img/cocktails-1.png);
-  background-size: auto, 190px;
-background-color: beige;
-  background-repeat: no-repeat;
-
-  background-position: right 20px top 300px, left 20px top 275px;
-
-
-}
 
 h1{
   font-style: italic;
   font-size: 40px;
+  color:#76323F;
 }
+
+.jumbtron{
+  background-color: #C09F80;
+
+
+}
+
+/*  only for search page */
+
+
+html {
+  min-height: 100%;
+  position: relative;
+ 
+}
+body {
+  position: relative;
+  margin-bottom: $height-footer;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  height: $height-footer;
+  text-align:center;
+  color: #76323F;
+  background-color:#C09F80;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+
+
+
+.btn-primary{
+  color:#76323F;
+}
+
+.card {
+  margin-left: 30%; /* Added */
+  margin-right: 30%;
+  margin-top:10%;
+  margin-bottom: 10%;
+  float: none; /* Added */
+   /* Added */
+  /*height : 60px;
+  width :60px;
+  background-color:  white;*/
+}
+
+body{
+  width: 100%;
+  height:100%;
+  margin:0;
+}
+
+
+#search{
+  background-image: url('../img/cocktail-search2.jpg'), url(../img/cocktail-search2.jpg);
+  background-size: 250px, 250px;
+  background-repeat: no-repeat;
+  background-position: right 100px top 300px, left 100px top 300px;
+
+
+}
+
