@@ -1,41 +1,50 @@
-<body id="search">
-<div class="jumbotron text-center">
-
-    <div class="container">
-         <h3 class="display-4"><i class="fas fa-cocktail"></i> Craft Cocktail</h3>
-
-    </div>
-
-</div>
- <div class="container text-center">
-<img src="../img/source.gif"/></div>
-<br/>
-
-<div class="text-center container">
-
-    <div class="row">
-        <div class="col">
-            <form action="/" method="POST">
-
-            <label for="cocktail-name" class="btn btn-primary btn-lg">Name of your cocktail</label>
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" id="cocktail-name" aria-describedby="basic-addon3">
-            </div>
-               <label for="ingredients" class="btn btn-primary btn-lg">Ingredients</label>
-                        <div class="input-group mb-3">
-                          <input type="text" class="form-control" id="ingredients" aria-describedby="basic-addon3">
-                        </div>
-
-                <button type="submit" id="text-enter-button" class="btn btn-primary btn-lg" href="#" role="button">
-                    Start Crafting
-                </button>
-            </form>
+<body id="create">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 class="display-3">
+                <i class="fas fa-cocktail"></i> Craft Cocktail</h3>
         </div>
-
     </div>
-
-
-</div>
-
-</div>
+    <div class="container text-center">
+        <img src="../img/source-mini.gif" />
+    </div>
+    <br/>
+    <div class="text-center container">
+        <form action="/" method="POST">
+            <div class="row">
+                <div class="col">
+                    <label for="cocktail-name" class="btn btn-primary btn-lg">Name of your cocktail</label>
+                </div>
+                <div class="col">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="cocktail-name" aria-describedby="basic-addon3">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="ingredients" class="btn btn-primary btn-lg">Ingredients</label>
+                </div>
+                <div class="col">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="ingredients" aria-describedby="basic-addon3">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button type="submit" id="text-enter-button" class="btn btn-primary btn-lg" href="#" role="button">
+                        Start Crafting
+                    </button>
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    <div>
+        <footer class="page-footer">
+            <b>&copy;copyright 2018</b>
+        </footer>
+    </div>
 </body>
