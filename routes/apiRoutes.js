@@ -27,6 +27,15 @@ module.exports = function(app) {
     });
   });
 
+  app.post("/api/new", function(req, res) {
+    console.log("Drinks");
+    console.log(req.body);
+    Drink.create({
+      drink: req.body.drink,
+      ingredients: req.body.ingredients
+    });
+  });
+
   // app.get("/api/recipe/:recipe", function(req, res) {
   //   Drink.findAll({
   //     where: {
