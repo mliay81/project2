@@ -84,3 +84,8 @@ body{
 
 }
 
+#idxImg{
+  height: unset;
+  width: 100%;
+}
+
