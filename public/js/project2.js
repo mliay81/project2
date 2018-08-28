@@ -13,6 +13,8 @@ $("#submit").click(function() {
     }).then(function(response) {
         console.log(response)
         var drinkListHTML = []
+
+        $("#results").empty();
         for (var i=0; i < response.drinks.length; i++) {
             console.log(response.drinks.length)
 
@@ -65,29 +67,38 @@ $("#submit").click(function() {
 
             // Pushes everything to the DOM
 
-            var finalDrink = $("<div id='final'></div>")
-            $("#final").empty();
+            var finalDrink = $("<div class='row'></div>");
+
+            var nameCol = $("<div class='col-md-6' id='drinkName'></div>");
+            var measurements =$("<div class='col-md-6' id='measurements'></div>");
+            var receipe =$("<div class='col-md-6' id='recipe'></div>");
+            var picture =$("<div class='col-md-6' id='pic'></div>");
+
 
             // Name
             var name = $("<h3>").text(response.drinks[i].strDrink)
-            $("#final").append(name)
+
             // console.log(name)
 
             // Recipe instructions
             var recipe = $("<p>").text(response.drinks[i].strInstructions)
-            $("#final").append(recipe)
+
 
             // Image
             var pic = $("<img>").attr("src", response.drinks[i].strDrinkThumb)
-            $("#final").append(pic)
 
-            drinkListHTML.push(name, recipe)
-            $("#measurements").append(name)
-            $("#measurements").append(makeUL(com.split(",")))
-            $("#measurements").append(recipe)
-            $("#measurements").append(pic)
-            $("#measurements").append("<hr>")
+            nameCol.append(name)
+            measurements.append(makeUL(com.split(",")))
+            receipe.append(recipe)
+            picture.append(pic)
 
+            finalDrink.append(nameCol);
+            finalDrink.append(measurements);
+            finalDrink.append(receipe);
+            finalDrink.append(picture);
+
+
+            $("#results").append(finalDrink);
 
         }
 
