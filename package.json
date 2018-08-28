@@ -1,5 +1,5 @@
 {
-  "name": "project2",
+  "name": "cocktail",
   "version": "1.0.0",
   "main": "server.js",
   "directories": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/mliay81/project2.git"
   },
-  "author": "",
+  "author": "Group 5",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mliay81/project2/issues"
@@ -25,10 +25,13 @@
     "mysql2": "^1.6.1",
     "sequelize": "^4.38.0",
     "express": "*",
-    "body-parser":"*"
+    "body-parser": "*"
   },
   "description": "Group 5 Project",
   "devDependencies": {
     "eslint": "^5.4.0"
-  }
+  },
+  "keywords": [
+    "Cocktail"
+  ]
 }
